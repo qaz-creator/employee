@@ -25,7 +25,7 @@
 
                                 <div class="col-md-6">
                                     <input id="country_code" type="text"
-                                        class="form-control @error('name') is-invalid @enderror" name="country_code"
+                                        class="form-control @error('country_code') is-invalid @enderror" name="country_code"
                                         value="{{ old('country_code') }}" required autocomplete="country_code" autofocus>
 
                                     @error('country_code')
